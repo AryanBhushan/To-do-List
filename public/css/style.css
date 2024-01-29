@@ -1,0 +1,94 @@
+body{     
+    background: rgb(255,248,227);
+background: linear-gradient(120deg, rgba(255,248,227,1) 6%, rgba(230,164,180,1) 32%, rgba(249,233,215,1) 79%);
+}
+
+#bs
+{
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.a{
+    display: flex;
+    margin: 1rem 0px;
+}
+
+.heading
+{
+
+  color: #0A1D56;
+    background-color: #F3D7CA;
+    padding: 10px;
+    font-style: italic;
+    border-radius: 15px;
+}
+
+.list{
+    margin: 15px;
+    border-radius: 5%;
+    padding:7px; 
+    background: rgb(255,248,227); 
+    background: linear-gradient(153deg, rgba(255,248,227,1) 23%, rgba(243,215,202,1) 62%);
+    border: 3px solid #dee2e6;
+    width:300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.a p{
+    width: 85%;
+    border: 3.5px solid rgb(0 0 0 / 19%);
+    padding: 7px;
+    font-family: system-ui;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #495057;
+    background-color: ghostwhite;
+    
+}
+
+
+
+input[type="text"]{
+    margin-right: 5px;
+    margin-left: 18px;
+    margin-bottom: 5px;
+    border: 3.5px solid rgb(0 0 0 / 19%);
+    background-color: ghostwhite;
+    padding: 7px;
+    font-family: system-ui;
+    border-radius: 10px;
+}
+
+input[type="checkbox"]
+{
+    margin-bottom: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.b{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.boss
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 1000px;
+    align-items: center;
+}
+
+
+input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color:black;
+  }
+
+  footer {
+    font-weight: 900;
+    padding: 10px;
+    background-color: #f5e9f7;
+    text-align: center;
+  }
